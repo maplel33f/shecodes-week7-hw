@@ -1,3 +1,16 @@
-h1 {
-    color: blue;
+body {
+    background-color: #d5dce6;
+    margin: 50px;
+   
+    font-family: "PT Serif", serif;
+}
+
+.background {
+background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/170/914/original/photo-1723385299822-c56e09ed26a3.png?1753114743");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    padding: 200px 100px 200px 100px;
+     border-radius: 8px;
 }
