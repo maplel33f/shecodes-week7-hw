@@ -10,21 +10,28 @@
 
     <title>English Countryside Weather App</title>
 </head>
+<div class ="outer-background">
 <div class="background">
-<form>
-     <input type="search" placeholder="Enter city here..." required/>
-    <input type="submit" value="search"/>
-</form>
-<hr>
+<main>
+    <form class="search-form">
+        <input type="search" placeholder="Enter city here..."  class="search-input" required/>
+        <input type="submit" value="Search"class="search-submit"/>
+    </form>
+<hr>    
 <body>
-    <h1>London</h1>
-    <h2>🌧️ 45°F</h2>
-    <p>Tuesday 14:19, scattered clouds <br> Humidity: <strong> 66%</strong> Wind: <strong>3.13km/h</strong>
-    </p>
-
+    <div class="temp-container">
+        <div>
+        <h1 class="city">London</h1>
+        <p class="subtext">Tuesday 14:19, scattered clouds <br> Humidity: <strong> 66%</strong> Wind: <strong>3.13km/h</strong>
+        </p>
+        </div>
+        <div class="temp-item">🌧️ 45<span class="subscript">°F</span></div>
+    </div>
     <hr>
-
-    <footer> This project was coded by <a href="https://www.linkedin.com/in/jessica-zhu/" target="_blank">Jessica Zhu</a> open-sourced on <a href="https://github.com/maplel33f/shecodes-week7-hw" target="_blank">GitHub</a> and hosted on <a href="https://shecodes-wk6-weather-app.netlify.app/" target="_blank">Netlify</a></footer>
+</main>
+    <footer> 
+        This project was coded by <a href="https://www.linkedin.com/in/jessica-zhu/" target="_blank">Jessica Zhu</a> open-sourced on <a href="https://github.com/maplel33f/shecodes-week7-hw" target="_blank">GitHub</a> and hosted on <a href="https://shecodes-wk6-weather-app.netlify.app/" target="_blank">Netlify</a></footer>
+    </div>
     </div>
 <script src="src/index.js"></script>
 </body>

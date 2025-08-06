@@ -1,16 +1,104 @@
 body {
-    background-color: #d5dce6;
+    background-color: #ABB9BA;
     margin: 50px;
-   
     font-family: "PT Serif", serif;
 }
 
-.background {
-background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/170/914/original/photo-1723385299822-c56e09ed26a3.png?1753114743");
+.outer-background {
+background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/171/781/original/rainy.png?1754494309");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-size: 100%;
     padding: 200px 100px 200px 100px;
-     border-radius: 8px;
+    border-radius: 8px;
+    
+}
+
+.background {
+background-color: #fef6f3;
+padding: 100px 50px;
+border-radius: 8px;
+}
+
+.search-form {
+padding-bottom: 20px;
+}
+
+.search-input {
+font-size: 20px;
+padding: 10px 290px 10px 20px;
+border-radius: 5px;
+border: 1px solid black;
+margin: 10px 10px 10px 0px;
+font-family: "PT Serif", serif;
+}
+
+.search-submit {
+    background-color: #5e8e9a;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: "PT Serif", serif;
+}
+
+
+a {
+    color: #5e8e9a;
+    text-decoration: none;
+}
+
+footer {
+    color: #8e9699;
+}
+
+.city {
+    font-family: "Leckerli One";
+    font-size: 40px;
+
+}
+
+.temp-container {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.subtext {
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.temp-item {
+    text-align: right;
+    font-size: 40px;
+    margin-top: 25px;
+    font-weight: 1000;
+    margin-right: 20px;
+}
+
+main {
+padding: 20px 50px;
+}
+
+.subscript {
+    font-size: 20px;
+    margin-top: 5px;
+    
+    position: absolute;
+    text-align: right;
+}
+
+strong {
+    color:#835E29;
+}
+
+footer {
+    margin-left:20px;
 }
