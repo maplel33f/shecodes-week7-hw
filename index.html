@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 
     <title>English Countryside Weather App</title>
 </head>
@@ -21,11 +22,21 @@
 <body>
     <div class="temp-container">
         <div>
-        <h1 class="city" id="city">London</h1>
-        <p class="subtext">Tuesday 14:19, scattered clouds <br> Humidity: <strong> 66%</strong> Wind: <strong>3.13km/h</strong>
+        <h1 class="city" id="city"></h1>
+        <p class="subtext">
+            <span id="dow"></span>, 
+            <span id="description"></span> 
+            <br> Humidity: <strong id="humid"></strong> Wind: <strong id="wind"></strong>
         </p>
         </div>
-        <div class="temp-item">🌧️ 45<span class="subscript">°F</span></div>
+        <div class="temp-item" id="temp-item">
+            <span id="emoji"> 
+            </span>
+            <span id="big-temp">
+            </span>
+            <span class="subscript">°F
+            </span>
+        </div>
     </div>
     <hr>
 </main>
